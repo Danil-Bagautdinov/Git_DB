@@ -25,7 +25,7 @@ class MyWidget(QMainWindow):
             self.qp.end()
 
     def draw(self, qp):
-        pen = QPen(Qt.yellow, 3)
+        pen = QPen(Qt.red, 3)
         self.qp.setPen(pen)
         x = randint(100, 400)
         y = randint(100, 400)
